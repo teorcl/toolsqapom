@@ -24,10 +24,10 @@ public class PracticeFormTest {
     @Test
     public void practiceFormTestMandatoryFields(){
         PracticeForm practiceForm = new PracticeForm(driver);
-        practiceForm.typeName("Teo");
+        practiceForm.typeName("Teodoro");
         practiceForm.typeLastName("Calle");
         practiceForm.clickGenderMale();
-        practiceForm.typeNumber("1234567890");
+        practiceForm.typeNumber("3127723718");
         practiceForm.doSubmit();
 
         Assertions.assertEquals(practiceForm.IsRegistrationDone(), forSubmittedForm(),"Los valores suministrados no son los esperados.");
@@ -41,9 +41,9 @@ public class PracticeFormTest {
 
     private List<String> forSubmittedForm(){
         List<String> submitedFormResult = new ArrayList<String>();
-        submitedFormResult.add("Teo Calle");
+        submitedFormResult.add("Teodoro Calle");
         submitedFormResult.add("Male");
-        submitedFormResult.add("1234567890");
+        submitedFormResult.add("3127723718");
         return submitedFormResult;
     }
 
