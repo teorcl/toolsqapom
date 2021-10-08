@@ -28,6 +28,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/co/com/sofka/runner/practiceform/PracticeFormTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/webui/practiceform/Prueba.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/webui/practiceform/practiceForm.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

@@ -1,4 +1,4 @@
-package co.com.sofka.practiceform;
+package co.com.sofka.runner.practiceform;
 
 import co.com.sofka.page.practiceform.PracticeForm;
 import org.junit.jupiter.api.*;
