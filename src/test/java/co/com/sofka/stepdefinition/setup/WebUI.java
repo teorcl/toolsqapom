@@ -24,4 +24,8 @@ public class WebUI {
         setUpWebDriverUrl();
     }
 
+    protected void quitDriver(){
+        driver.quit();
+    }
+
 }

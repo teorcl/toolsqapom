@@ -16,26 +16,34 @@ public class PracticeFormTest extends WebUI {
     /**Lo que se hace antes de testear*/
     @BeforeEach
     public void setUp(){
-        generalSetUp();
-        practiceFormModel = new PracticeFormModel();
-        practiceFormModel.setName("Teodoro");
-        practiceFormModel.setLastName("Calle");
-        practiceFormModel.setMobile("3127723718");
-        practiceFormModel.setGender(Gender.MALE);
+        try{
+            generalSetUp();
+            practiceFormModel = new PracticeFormModel();
+            practiceFormModel.setName("Teodoro");
+            practiceFormModel.setLastName("Calle");
+            practiceFormModel.setMobile("3127723718");
+            practiceFormModel.setGender(Gender.MALE);
+        }catch (Exception exception){
+            quitDriver();
+        }
     }
 
     /**Lo que se hace durante el test*/
     @Test
     public void practiceFormTestMandatoryFields(){
-        PracticeForm practiceForm = new PracticeForm(driver, practiceFormModel);
-        practiceForm.fillStudentForm();
-        Assertions.assertEquals(practiceForm.IsRegistrationDone(), forSubmittedForm(),ASSERTION_EXCEPTION_MESSAGE);
+        try{
+            PracticeForm practiceForm = new PracticeForm(driver, practiceFormModel);
+            practiceForm.fillStudentForm();
+            Assertions.assertEquals(practiceForm.IsRegistrationDone(), forSubmittedForm(),ASSERTION_EXCEPTION_MESSAGE);
+        }catch (Exception exception){
+            quitDriver();
+        }
     }
 
     /**Lo que hace despues del test*/
     @AfterEach
     public void tearDown(){
-        driver.quit();
+        quitDriver();
     }
 
     private List<String> forSubmittedForm(){

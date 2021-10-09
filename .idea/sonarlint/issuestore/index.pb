@@ -5,8 +5,6 @@
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-s
-Csrc/test/resources/features/webui/practiceform/practiceForm.feature,9\b\9b5f36e32a0b1d1d997d54342d1472ef39b04e4b
 n
 >src/main/java/co/com/sofka/page/practiceform/PracticeForm.java,8\e\8e012a297bb612ebbbee916bc4ee3933b38d07f4
 [

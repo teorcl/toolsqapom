@@ -18,6 +18,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/co/com/sofka/model/practiceform/PracticeFormCucumberOpt1Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/co/com/sofka/model/practiceform/PracticeFormModel.java">
           <value>
             <set />
@@ -43,7 +48,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/co/com/sofka/runner/practiceform/PracticeFormCucumberOpt1Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/co/com/sofka/runner/practiceform/PracticeFormCucumberOpt2Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/co/com/sofka/runner/practiceform/PracticeFormTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/co/com/sofka/stepdefinition/practiceform/PracticeFormCucumberOpt1StepDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/co/com/sofka/stepdefinition/practiceform/opt1/PracticeFormCucumberOpt1StepDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/co/com/sofka/stepdefinition/practiceform/opt2/PracticeFormCucumberOpt2StepDefinition.java">
           <value>
             <set />
           </value>
